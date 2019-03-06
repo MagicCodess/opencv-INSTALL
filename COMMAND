@@ -1,0 +1,1 @@
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D PYTHON_DEFAULT_EXECUTABLE=/home/arthur/.virtualenvs/env/bin/python3.6 -D WITH_TBB=ON -D WITH_EIGEN=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-master/modules/ -D BUILD_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON ..
